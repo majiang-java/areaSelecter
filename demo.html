@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <script src="js/hotcss.js"></script>
+        <link rel="stylesheet"  type="text/css" href="css/dialog.css">
+        <script src="js/zepto.js"></script>
+
+
+        <script src="js/dialog.js"></script>
+
+        <script src="js/mobile-select-area.js"></script>
+        <style>
+
+            body {
+
+                width: 16rem;
+                margin: 0 auto;
+                padding: 0; }
+            body {
+                width: 16rem;
+                margin: 0 auto;
+                padding: 0; }
+
+            #header {
+                width: 16rem;
+                height: 2.2rem;
+                line-height: 2.2rem;
+                background-color: #33aa33;
+                text-align: center;
+                font-size: 1.2rem;
+                color: white; }
+
+            #container1 {
+                margin-top: 0.25rem;
+                padding: 0.75rem;
+                background-color: #191919;
+                color: #f0f0f0;
+                line-height: 1.7;
+                max-height: 100%;
+                font-size: 0.8rem; }
+
+            #container2 {
+                margin-top: 0.25rem;
+                padding: 0.75rem;
+                background-color: #191919;
+                color: #f0f0f0;
+                line-height: 1.7;
+                max-height: 100%;
+                font-size: 12px; }
+            [data-dpr="2"] #container2 {
+                font-size: 24px; }
+            [data-dpr="3"] #container2 {
+                font-size: 36px; }
+
+        </style>
+        <script>
+
+            $(function(){
+
+                var selectArea = new MobileSelectArea();
+                selectArea.init({trigger:'.region',
+                    value:$('#hd_area').val(),
+                    data:'data/datac.js'
+                });
+            });
+        </script>
+    </head>
+    <body>
+    <div id="header">普通的演示</div>
+    <div id="container1">
+        这是一个普通的演示。在head头加载hotcss.js。
+        优雅的使用scss书写css。单位均使用了px2rem处理
+    </div>
+    <div id="container2">
+        这个里面的字体没有使用px2rem。具体写法参看css。
+        如果你在使用chrome。请打开控制台，尝试模拟不同设备，来查看表现。
+    </div>
+    <div id="container1">  <input class="region" id="region" type="text"  value="北京市 北京市" data-value="110000,110000" />
+        <input type="hidden" id="hd_area" value="110000,110000"/></div>
+
+    </body>
+</html>

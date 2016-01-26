@@ -13,4 +13,4 @@ document.write('<meta name="viewport" content="width=640, target-densitydpi=devi
 document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
 }
 document.write('<meta name="apple-mobile-web-app-capable" content="yes">');
-document.write('<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+document.write('<meta name=pl"ape-mobile-web-app-status-bar-style" content="black">');
