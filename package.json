@@ -1,0 +1,35 @@
+{
+  "name": "areaselecter",
+  "version": "1.0.0",
+  "description": "area selecter mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majiang-java/areaSelecter.git"
+  },
+  "keywords": [
+    "area",
+    "selecter",
+    "mobile"
+  ],
+  "author": "vincent",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/majiang-java/areaSelecter/issues"
+  },
+  "homepage": "https://github.com/majiang-java/areaSelecter#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^6.4.1",
+    "css-loader": "^0.27.3",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.14.1",
+    "uglify-js": "^2.8.14",
+    "url-loader": "^0.5.8",
+    "webpack-dev-server": "^2.4.2",
+    "zepto": "^1.2.0"
+  }
+}

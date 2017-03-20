@@ -1,9 +1,9 @@
+
 /*
  * Created with Sublime Text 2.
  * arther: vincent
- * licence GPL
+ * licence GPL-3.0
  */
-;
 (function(root, factory) {
 	//amd
 	if (typeof define === 'function' && define.amd) {
@@ -24,7 +24,7 @@
 		this.oldvalue;
 		this.text = ['', '', ''];
 		this.level = 2;
-		this.mtop = 30;
+		this.mtop = 60;
 		this.separator = ' ';
 	};
 	MobileSelectArea.prototype = {
