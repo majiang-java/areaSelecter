@@ -1,10 +1,7 @@
 /*
  * Created with Sublime Text 2.
- * license: http://www.lovewebgames.com/jsmodule/index.html
- * User: 田想兵
- * Date: 2015-03-16
- * Time: 20:27:54
- * Contact: 55342775@qq.com
+ * author: vincent
+ * licence GPL-3.0
  */
 ;
 (function(root, factory) {

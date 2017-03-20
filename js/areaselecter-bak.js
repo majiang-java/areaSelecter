@@ -1,9 +1,11 @@
 
 /*
  * Created with Sublime Text 2.
- * arther: vincent
+ * author: vincent
  * licence GPL-3.0
+ *	老版本 禁止使用
  */
+ ;
 (function(root, factory) {
 	//amd
 	if (typeof define === 'function' && define.amd) {
