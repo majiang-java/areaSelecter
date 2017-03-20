@@ -1,8 +1,12 @@
-
 /*
-*
-*
-* */
+ * Created with Sublime Text 2.
+ * license: http://www.lovewebgames.com/jsmodule/index.html
+ * User: 田想兵
+ * Date: 2015-03-16
+ * Time: 20:27:54
+ * Contact: 55342775@qq.com
+ */
+;
 (function(root, factory) {
 	//amd
 	if (typeof define === 'function' && define.amd) {
@@ -293,7 +297,7 @@
 			this.mask.show();
 			this.dailogContent.show();
 			this.height = this.settings.height || 'auto' //this.dialogContainer.height();
-			this.width = this.settings.width || '100%' //this.dialogContainer.width();
+			this.width = this.settings.width || 'auto' //this.dialogContainer.width();
 			this.dialogContainer.append(this.dailogContent).show().css({
 				height: this.height,
 				width: this.width
@@ -334,7 +338,7 @@
 				var ml = this.width / 2;
 				var mt = this.height / 2;
 				var left = clientWidth / 2 - ml;
-				var top = clientHeight - this.height;
+				var top = clientHeight / 2 - mt;
 				left = Math.floor(Math.max(0, left));
 				top = Math.floor(Math.max(0, top));
 				var position = 'absolute';
@@ -343,7 +347,6 @@
 				}
 				_this.dialogContainer.css({
 					position: position,
-                    width:"100%",
 					top: top,
 					left: left
 				});
